@@ -19,8 +19,8 @@ ENV cloudcmd_terminal false
 ENV cloudcmd_terminal_path gritty
 ENV cloudcmd_open false
 ENV cloudcmd_auth true
-ENV cloudcmd_username admin
-ENV cloudcmd_password 07110711
+ENV cloudcmd_username 
+ENV cloudcmd_password 
 
 EXPOSE 8000
 
