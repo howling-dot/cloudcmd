@@ -15,9 +15,12 @@ COPY . /usr/src/app
 
 WORKDIR /
 
-ENV cloudcmd_terminal true
+ENV cloudcmd_terminal false
 ENV cloudcmd_terminal_path gritty
 ENV cloudcmd_open false
+ENV cloudcmd_auth true
+ENV cloudcmd_username admin
+ENV cloudcmd_password 07110711
 
 EXPOSE 8000
 
